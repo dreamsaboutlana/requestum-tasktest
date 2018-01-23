@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dreamsaboutlana/gitcommits-statistics.git"
+    "url": "git+https://github.com/dreamsaboutlana/requestum-tasktest.git"
   },
   "keywords": [
     "react"
@@ -18,9 +18,9 @@
   "author": "Svitlana Golovko",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dreamsaboutlana/gitcommits-statistics"
+    "url": "https://github.com/dreamsaboutlana/requestum-tasktest"
   },
-  "homepage": "https://github.com/dreamsaboutlana/gitcommits-statistics#readme",
+  "homepage": "https://github.com/dreamsaboutlana/requestum-tasktest#readme",
   "dependencies": {
     "@types/react": "^16.0.25",
     "express": "^4.16.2",
