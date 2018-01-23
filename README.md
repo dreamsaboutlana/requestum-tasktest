@@ -1,7 +1,7 @@
 # Simple shop list
 
 ## How to setup
-1.Go to server directory and  run server _`node app.js`_ 
+1.Go to server directory and  run server _`node api.js`_ 
 
 2.Go to root directory and _`npm install`_ 
 
