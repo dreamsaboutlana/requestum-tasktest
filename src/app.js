@@ -7,6 +7,7 @@ import './app.scss';
 
 const store = configureStore();
 
-ReactDom.render(<Provider store={store}>
-  <Main />
-</Provider>, document.getElementById('app'));
+ReactDom.render(
+  <Provider store={store}>
+    <Main />
+  </Provider>, document.getElementById('app'));

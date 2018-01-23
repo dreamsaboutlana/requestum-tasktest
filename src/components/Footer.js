@@ -1,12 +1,6 @@
 import Icon from 'react-icons-kit';
-import { location } from 'react-icons-kit/icomoon/location';
-import { phone } from 'react-icons-kit/icomoon/phone';
-import { skype } from 'react-icons-kit/icomoon/skype';
-import { ic_mail_outline } from 'react-icons-kit/md/ic_mail_outline';
-
-import { ic_play_arrow } from 'react-icons-kit/md/ic_play_arrow';
-
-<Icon icon={ic_play_arrow} />
+import { location, phone, skype } from 'react-icons-kit/icomoon';
+import { ic_mail_outline, ic_play_arrow } from 'react-icons-kit/md';
 
 export const Footer = () => (
     <footer>
@@ -84,8 +78,6 @@ export const Footer = () => (
             </li>
           </ul>
         </li>
-
-
       </ul>
     </footer>
   )

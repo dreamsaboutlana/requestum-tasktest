@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 export const Good = ({ data }) => (
   <React.Fragment>
     <div className="goods-list-item-img">
@@ -25,3 +27,7 @@ export const Good = ({ data }) => (
     </div>
   </React.Fragment>
 );
+
+Good.propTypes = {
+  data: PropTypes.object.isRequired
+};

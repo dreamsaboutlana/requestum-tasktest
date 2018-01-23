@@ -1,13 +1,13 @@
 import { Footer } from './Footer';
 import { Header } from './Header';
-import { GoodsList } from './GoodsList';
+import GoodsListContainer from '../containers/GoodsListContainer'
 
 export const Main = () => {
   return (
     <React.Fragment>
       <Header />
       <main>
-        <GoodsList />
+        <GoodsListContainer />
       </main>
       <Footer />
     </React.Fragment>

@@ -185,6 +185,10 @@ main {
   }
 }
 
+.loading {
+  margin: auto;
+}
+
 footer {
   padding: 0 40px 40px;
 }
@@ -253,8 +257,9 @@ footer {
     }
     &:after {
       content: "";
-      flex: auto;
+      width: 32%;
     }
+
   }
 }
 
@@ -266,6 +271,13 @@ footer {
     &-item {
       width: 48%;
       max-width: none;
+      &:nth-child(even) {
+        margin-right: 0;
+      }
+    }
+    &:after {
+      content: "";
+      width: 48%;
     }
   }
 }
@@ -284,7 +296,7 @@ footer {
   .goods-list {
     &-item {
       width: $persent;
-      margin-left: 0;
+      margin-right: 0;
     }
     .btn-wrap {
       display: flex;
@@ -297,6 +309,9 @@ footer {
     }
     .btn-add {
       margin-right: 6px;
+    }
+    &:after {
+      content: none;
     }
   }
 
